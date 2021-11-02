@@ -1,4 +1,4 @@
-# marknad-frontend
+# context-frontend
 
 ## Project setup
 ```
