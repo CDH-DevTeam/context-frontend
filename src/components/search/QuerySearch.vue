@@ -40,7 +40,7 @@ export default {
 
       // When updating the search
       // Change the route
-      this.$router.push({ path: '/', query: { word: this.query.toLowerCase() }});
+      // this.$router.push({ path: '/', query: { word: this.query.toLowerCase() }});
 
       // Update the store state
       this.$store.commit({
