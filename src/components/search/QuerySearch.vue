@@ -21,12 +21,12 @@ export default {
       // console.log(this.query)
       // Update the store state
 
-      if (this.$route.query.word) {
+      // if (this.$route.query.word) {
         this.$store.commit({
           type: 'query',
           value: this.$route.query.word
         });
-      }       
+      // }       
   },
 
   data () {
