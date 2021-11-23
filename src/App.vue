@@ -28,12 +28,12 @@
             </v-sheet>
           </v-col>
           <v-col cols=9>
-            <count-chart/>
+            <!-- <count-chart/> -->
           </v-col>
         </v-row>
         <v-row>
           <v-col>
-            <sentence-table/>
+            <fragment-table/>
           </v-col>
         </v-row>
         <v-row>
@@ -53,8 +53,8 @@
 </template>
 
 <script>
-import SentenceTable from './components/SentenceTable.vue'
-import CountChart from './components/charts/CountChart.vue'
+import FragmentTable from './components/FragmentTable.vue'
+// import CountChart from './components/charts/CountChart.vue'
 import Search from './components/search/Search.vue'
 
 import Logo from './components/Logo.vue'
@@ -64,8 +64,8 @@ export default {
   name: 'App',
 
   components: {
-    SentenceTable,
-    CountChart,
+    FragmentTable,
+    // CountChart,
     Search,
     Logo,
   },

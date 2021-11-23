@@ -3,7 +3,8 @@ import axios from 'axios'
 export default class API {
   constructor (url, params) {
     this.url = url
-    this.baseURL = 'https://context.dh.gu.se/riksdagstryck/api/'
+    // this.baseURL = 'https://context.dh.gu.se/riksdagstryck/api/'
+    this.baseURL = 'http://127.0.0.1:8000/riksdagstryck/api/'
     this.responseType = 'json'
     this.axios = axios.create({
       baseURL: this.baseURL,
